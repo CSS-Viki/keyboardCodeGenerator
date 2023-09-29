@@ -4,15 +4,15 @@ window.addEventListener("keydown", (e) => {
   container.innerHTML = `
         <div class="first">
         <p class="codes">e.key</p>
-        <button>${e.key === " " ? "Space" : e.key}</button>
+        <div class="code-name">${e.key === " " ? "Space" : e.key}</div>
         </div>
         <div class="first">
         <p class="codes">e.keyCode</p>
-        <button>${e.keyCode}</button>
+        <div class="code-name">${e.keyCode}</div>
         </div>
         <div class="first">
         <p class="codes">e.code</p>
-        <button>${e.code}</button>
+        <div class="code-name">${e.code}</div>
         </div>`;
 });
 

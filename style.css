@@ -24,11 +24,8 @@
 .codes {
   font-size: 1rem;
 }
-button {
-  border: none;
-  outline: none;
-  padding: 15px 10px;
-  background: #c3c3c3;
-  width: 100%;
-  border-radius: 15px;
+.code-name {
+  background-color: yellow;
+  padding: 10px 20px;
+  color: #f70000;
 }
